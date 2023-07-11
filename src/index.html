@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Projeto X-Men - Semana do Zero ao Programador Contratado</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./images/logo.svg" alt="Logo X-Men">
+    </header>
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo">Selecione um personagem</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="ciclope" data-name="Ciclope" data-description="Ele tem o poder
+                 disparar ópticas por causa de um acidente que aconteceu com ele quando criança, mas
+                não consegue controlá-los.">
+                    <img src="./images/card-ciclope.jpg" alt="Personagem Ciclope" >
+                </li>
+                <li class="personagem" id="jean-grey" data-name="Jean-Grey" data-description="Jean Grey é uma mutante
+                 nível Ômega. Desde seu nascimento, ela é uma poderosa telepata, telecinética e psiônica, estando
+                  entre as mais fortes mutantes do universo Marvel. Ela também é o avatar da Força Fênix, 
+                  no qual manifesta poderes cósmicos">
+                    <img src="./images/card-jean-grey.jpg" alt="Personagem Jean-Grey" >
+                </li>
+                <li class="personagem" id="lince-negra"  data-name="Lince-Negra" data-description="Kitty Pryde, ou 
+                Lince Negra (em inglês, Shadowcat) é uma personagem fictícia das histórias em quadrinhos do Universo
+                 Marvel, publicadas pela Marvel Comics. Originalmente denominada Ninfa, ela integrou a quarta formação
+                  dos X-Men, utilizando ao máximo sua habilidade de atravessar objetos sólidos e andar no ar.">
+                    <img src="./images/card-lince-negra.jpg" alt="Personagem Lince-Negra">
+                </li>
+                <li class="personagem" id="magneto" data-name="Magneto" data-description="Magneto é o mutante Erik Magnus
+                 Lehnsherr, com a capacidade de controle e manipulação de campos magnéticos bem como qualquer tipo de metal.
+                  Nascido em uma família judaica, foi perseguido e feito prisioneiro em Auschwitz na II Guerra Mundial.">
+                    <img src="./images/card-magneto.jpg" alt="Personagem Magneto" >
+                </li>
+                <li class="personagem" id="noturno" data-name="Noturno" data-description="Noturno é um católico alemão e, 
+                enquanto isso não é enfatizado tanto nas suas aparições anteriores nos quadrinhos, Noturno representou mais
+                 tarde que é mais vocal sobre sua fé. Desde sua criação, Noturno teve uma presença regular na Marvel, 
+                 relacionado com histórias em quadrinhos e jogos de vídeo.">
+                    <img src="./images/card-noturno.jpg" alt="Personagem Noturno">
+                </li>
+                <li class="personagem" id="tempestade" data-name="Tempestade" data-description="Tempestade é descendente de 
+                uma antiga linha de feiticeiras africanas. Todas têm cabelos brancos, olhos azuis e potencial para usar magia.
+                 A mãe dela, N'Dare, era a princesa de uma tribo no Quênia. Ela casou-se com o fotojornalista americano 
+                 David Munroe e mudou-se com ele para Manhattan onde Ororo nasceu.">
+                    <img src="./images/card-tempestade.jpg" alt="Personagem Tempestade" >
+                </li>
+                <li class="personagem" id="vampira" data-name="Vampira" data-description="A Vampira é um caso interessante
+                 a ser estudado nos quadrinhos. Seus poderes a forçaram a desenvolver uma personalidade durona e inabalável 
+                 para esconder a fragilidade e a tristeza por não poder tocar naqueles que amava. Ela sempre esteve pronta 
+                 pra ação, e nunca foi de levar desaforo pra casa.">
+                    <img src="./images/card-vampira.jpg" alt="Personagem Vampira" >
+                </li>
+                <li class="personagem" id="wolverine" data-name="Wolverine" data-description="Ele é um mutante que possui 
+                sentidos afiados, capacidades físicas aprimoradas, habilidade regenerativa poderosa conhecida como fator de
+                 cura e três garras retratáveis ​​de osso em cada mão. Wolverine foi retratado de forma variada como membro 
+                 do X-Men, Tropa Alfa e Vingadores.">
+                    <img src="./images/card-wolverine.jpg" alt="Personagem Wolverine" >
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./images/card-ciclope.png" alt="Personagem selecionado">
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+                <p class="descricao-personagem" id="descricao-personagem">
+                    Ele tem o poder disparar ópticas por causa de um acidente que aconteceu com ele quando criança, mas
+                    não consegue controlá-los.
+                </p>
+            </div>
+        </section>
+    </main>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
